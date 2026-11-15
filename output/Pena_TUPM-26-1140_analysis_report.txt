@@ -1,0 +1,13 @@
+SECOM NUMERICAL DATA ANALYSIS
+Student: Pena
+Student ID: TUPM-26-1140
+Random Seed: 261140
+Verification Value: 56
+Sample Size: 214
+Assigned Features: Feature_584, Feature_355, Feature_201, Feature_181, Feature_283
+Pass Records: 202
+Fail Records: 12
+Sample Failure: 5.61%
+Highest-SD Feature: Feature_201
+Highest Sample SD: 4.8125
+Verification: PASSED
