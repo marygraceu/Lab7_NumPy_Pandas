@@ -1,0 +1,67 @@
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+=======================================================
+Student ID: TUPM-26-1140
+Selected Features: sensor_160, sensor_183, sensor_303, sensor_376, sensor_500
+Bootstrap Repetitions: 2000
+Random Seed: 0
+
+STRATEGY COMPARISON
+-------------------------------------------------------
+
+Feature: sensor_160
+Available-Case Bootstrap Mean Difference: 312.10361684
+Available-Case 95% CI: [47.76855003, 611.40060165]
+Median-Imputation Bootstrap Mean Difference: 306.26603413
+Median-Imputation 95% CI: [57.49000835, 618.78662686]
+Direction Changed: False
+Ranking Changed: False
+Confidence Interval Status Changed: False
+
+Feature: sensor_183
+Available-Case Bootstrap Mean Difference: -0.51236659
+Available-Case 95% CI: [-1.13333221, 0.10208960]
+Median-Imputation Bootstrap Mean Difference: -0.52182504
+Median-Imputation 95% CI: [-1.14086634, 0.09633242]
+Direction Changed: False
+Ranking Changed: False
+Confidence Interval Status Changed: False
+
+Feature: sensor_303
+Available-Case Bootstrap Mean Difference: 0.02018060
+Available-Case 95% CI: [-0.02476880, 0.07367009]
+Median-Imputation Bootstrap Mean Difference: 0.01962324
+Median-Imputation 95% CI: [-0.02203757, 0.07625933]
+Direction Changed: False
+Ranking Changed: False
+Confidence Interval Status Changed: False
+
+Feature: sensor_376
+Available-Case Bootstrap Mean Difference: 0.00000000
+Available-Case 95% CI: [0.00000000, 0.00000000]
+Median-Imputation Bootstrap Mean Difference: 0.00000000
+Median-Imputation 95% CI: [0.00000000, 0.00000000]
+Direction Changed: False
+Ranking Changed: False
+Confidence Interval Status Changed: False
+
+Feature: sensor_500
+Available-Case Bootstrap Mean Difference: -39.55795199
+Available-Case 95% CI: [-98.13464999, 24.78650695]
+Median-Imputation Bootstrap Mean Difference: -39.24936586
+Median-Imputation 95% CI: [-103.74504795, 27.79740761]
+Direction Changed: False
+Ranking Changed: False
+Confidence Interval Status Changed: False
+
+OVERALL INTERPRETATION
+-------------------------------------------------------
+Largest Change in Mean Difference: 5.83758271
+Features with Changed Difference Sign: 0
+Changed Sign Features: None
+Features with Changed Ranking: 0
+Changed Ranking Features: None
+Reproducibility Verified: True
+
+Interpretation: The comparison evaluates whether the observed Fail-versus-Pass mean differences remain stable under available-case analysis and full-dataset median imputation. Confidence intervals containing zero indicate that zero difference remains plausible under the bootstrap analysis. Changes in direction, confidence interval status, or ranking indicate sensitivity to the preparation strategy.
+
+Note: Bootstrap confidence intervals describe sampling uncertainty under the observed outcome groups and the chosen resampling procedure. They do not establish causation.
